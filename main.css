@@ -1,0 +1,725 @@
+
+    body{
+        font-family: Montserrat;
+      }
+  
+      #title{
+  
+  z-index: 1;
+  
+        background-color:white;
+  position: fixed;
+  width: 100%;
+      }
+      .main-banner .wrapper {
+      position: relative;
+      padding-top: 200px;
+      padding-bottom: 245px;
+  }
+  
+      h3{
+        font-family: Montserrat-bold;
+        font-weight: bold;
+      }
+  
+      .container-fluid{
+        padding: -8% 4% -4%;
+  
+      }
+      .navbar{
+        padding-left: 8%;
+        padding-right: 5%;
+       
+      }
+      .navbar-brand{
+        font-family: Ubuntu cursive;
+        font-size: 2.0rem;
+        font-weight: bold;
+  
+      }
+      .nav-item{
+      padding:2px;
+      font-size:5.0rem;
+  
+      }
+      .logo{
+        width:60%;
+   
+      }
+      .nav-link{
+        font-size: 1.3rem;
+        font-family: Montserrat;
+        padding:2% 0%;
+        font-weight: 500;
+      }
+  
+      .download-button{
+        margin: 5% 3% 5% 3%;
+      }
+  
+  
+  
+  
+  
+    
+  
+  .main-banner {
+    position: relative; 
+      height: 100vh;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-image: url(1.png);
+      background-size: cover;
+      background-attachment: fixed;
+  }
+  
+  .main-banner::before {    
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(5, 5, 3, 0.5);
+  }
+  
+  
+  
+  
+  .main-banner h1 {
+   position: relative;
+    color: #ffffff;  
+    font-size: 2.5rem;
+    line-height: 0.9;
+    text-align: center;
+  }
+  
+  .main-banner h1 em {
+    font-size: 150%;
+    line-height: 1;
+    font-weight: 200;
+    text-transform: lowercase;
+  }
+  
+  .main-banner h1 em:last-child {
+    margin-top: -15px;
+    display: block;
+  }
+  
+  .main-banner .wrapper {
+    position: relative;
+    padding-top: 25%;
+    padding-bottom: 10%;
+  }
+  
+  .main-banner .descr {
+    max-width: 25%;
+    line-height: 120%;
+    color: #ffffff;
+    position: absolute;
+    left: 2%;
+    bottom: 15%;
+  }
+  
+  
+  .main-banner .women {
+    position: absolute;
+    right: 1%;
+    width: 50%;
+    top : 25%;
+  
+  }
+  
+  
+  .main-banner .vector-bot {
+    position: absolute;
+    left: -140px;
+    bottom: 1px;
+    width: 45%;
+  }
+  
+  
+  
+  .main-banner .bot-btn {
+    position: absolute;
+    left: 50%;
+    bottom: 10px;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+  
+  
+  .text-section p {
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 54%;
+    line-height: 150%;
+    text-align: center;
+  }
+  
+  
+  .box{
+  
+  font-weight: bold;
+  opacity: 0;
+  margin: 0;
+  
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 0 1px 1rem rgb(27, 143, 114);
+  color: rgb(240, 231, 247);
+  }
+  
+  
+  .b1{
+    animation: ani1 15s infinite;
+    
+    }
+    .b2{
+    animation: ani2 15s infinite;
+    }
+    .b3{
+    animation: ani3 15s infinite;
+    }
+    .b4{
+    animation: ani4 15s infinite;
+    }
+    .b5{
+    animation: ani5 15s infinite;
+    }
+    
+    @keyframes ani1 {
+    0%{
+      opacity: 0;
+    }
+    10%{
+      opacity: 1;
+    }
+    20%{
+      opacity: 0;
+    }
+    
+    }
+    
+    @keyframes ani2 {
+    20%{
+      opacity: 0;
+    }
+    30%{
+      opacity: 1;
+    }
+    40%{
+      opacity: 0;
+    }
+    
+    }
+    
+    
+    @keyframes ani3 {
+    40%{
+      opacity: 0;
+    }
+    50%{
+      opacity: 1;
+    }
+    60%{
+      opacity: 0;
+    }
+    
+    }
+    
+    
+    @keyframes ani4 {
+    60%{
+      opacity: 0;
+    }
+    70%{
+      opacity: 1;
+    }
+    80%{
+      opacity: 0;
+    }
+    
+    }
+    
+    
+    @keyframes ani5 {
+    80%{
+      opacity: 0;
+    }
+    90%{
+      opacity: 1;
+    }
+    100%{
+      opacity: 0;
+    }
+    
+    }
+    
+  
+  
+  
+  
+  
+      /* #testimonials{
+      background-color: rgb(133, 86, 86);
+  padding: 0.5rem;
+  text-align: center;
+      color: #fff;
+      z-index: 0;
+      position:inherit;
+  
+      }
+      .testimonial-image{
+         width: 75%;
+  
+         margin: 3px;
+      } */
+  
+  #details{
+      
+  background-color: white;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-left: 150px;
+  margin-right: 90px;
+  align-items: center;
+  
+  }
+  
+  .det1 img{
+  
+    padding:3%;
+    width: 90%;
+    border-radius: 4%;
+  }
+  
+  .det1 button{
+  align-content: center;
+  }
+      #footer{
+    background-color:white;
+    color:  rgb(42, 20, 51)F;
+    padding:2% 0% 2% 0%;
+    text-align: center;
+      font-size: 1.2rem;
+  }
+  
+  .social-icon{
+  
+    margin: 5px 5px;
+  }
+  
+  #welcome{
+    color:  black;
+    background-color:  rgb(255, 255, 255);
+    padding-bottom: 5%;
+  
+  }
+  
+  #welcome p{
+    padding-left: 10%;
+    padding-right: 10%;
+  
+    font-style: italic;
+  
+  }
+  
+  
+  
+  
+  
+  
+  
+  section {
+   
+    overflow: hidden;
+  }
+  .section-bg {
+    padding-top: 7%;
+    padding-bottom: 5%;
+    background-color: #f7f7f7;
+  }
+  .section-bg-blue {
+    background-color: #37ad19;
+  }
+  .section-title {
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  .section-title h2 {
+    font-size: 32px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+  }
+  .section-title h2::after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 5px;
+    background: #77882e;
+    bottom: 0;
+    left: calc(50% - 25px);
+    border-radius: 15px;
+  }
+  .section-title p {
+    margin-bottom: 0;
+  }
+  
+      
+  .about-us .content p:last-child {
+    margin-bottom: 0;
+  }
+      
+  .text-color-1 {
+    color: #98c421 !important;
+  }
+  
+      
+  .quote1 {
+    position: absolute;
+    top: 30px;
+    height: 80px;
+    left: 40px;
+  }
+  .quote2 {
+    position: absolute;
+    bottom: 30px;
+    height: 80px;
+    right: 40px;
+    transform: rotate(180deg);
+  }
+  
+  
+  
+  
+  
+  
+  
+  #hiring-simplified {
+    /* The image used */
+    padding-top: 4%;
+    padding-bottom: 4%;
+    background-image: url(s4.jpg);
+    /* Create the parallax scrolling effect */
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff !important;
+    position: relative;
+  }
+  #hiring-simplified .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #15180b;
+    background: -moz-linear-gradient(45deg, #161615 0%, #000000 100%);
+    background: -webkit-gradient(left bottom, right top, color-stop(0%, #10110f), color-stop(100%, #0e0f0c));
+    background: -webkit-linear-gradient(45deg, #0e0f0c 0%, #2c2c26 100%);
+    background: -o-linear-gradient(45deg, #0e0f0c 0%, #2c2c26 100%);
+    background: -ms-linear-gradient(45deg, #0e0f0c 0%, #2c2c26 100%);
+    background: linear-gradient(45deg, #0e0f0c 0%, #2c2c26 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#2A3181', endColorstr='#1272B9', GradientType=1);
+    opacity: 0.4;
+  }
+  
+  
+  
+  .text-color-white {
+    color: #ffffff !important;
+  }
+      
+  
+  
+    
+  
+  
+  
+  #testimonials {
+    position: relative; 
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    background-image: url(s6.jpg);
+    background-size: cover;
+    color:white;
+    background-attachment: fixed;
+    
+  }
+  #testimonials::before{
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(5, 5, 3, 0.5);
+  
+  }
+  
+  
+  .test-inner{
+  
+  padding: 6% 10%;
+  
+  
+  }
+  
+  #footer{
+   
+   
+    padding: 7% 15%;
+    text-align: center;
+  }
+  
+  .social-icon{
+    margin: 20px 10px;
+    color:  #98c421 ;
+  
+  }
+  
+  
+
+
+
+
+
+
+  
+  .h1-headerTitle {
+    text-align: center;
+    color: #ffffff;
+    font-size: 32px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    margin-top: 60px;
+    font-weight: bolder;
+}
+#headerDivExpertise {
+    width: 100%;
+    height: 300px;
+    background-image: url(s3.jpg);
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff !important;
+    overflow: hidden;
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+    object-fit: cover;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+}
+#headerDivExpertise .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #000000;
+    background: -moz-linear-gradient(45deg, #000000 0%, #000000 100%);
+    background: -webkit-gradient(left bottom, right top, color-stop(0%, #000000), color-stop(100%, #000000));
+    background: -webkit-linear-gradient(45deg, #000000 0%, #000000 100%);
+    background: -o-linear-gradient(45deg, #000000 0%, #000000 100%);
+    background: -ms-linear-gradient(45deg, #000000 0%, #000000 100%);
+    background: linear-gradient(45deg, #000000 0%, #000000 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#000000', GradientType=1);
+    opacity: .8;
+}
+
+#hero {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    overflow: hidden;
+    position: relative;
+}
+
+
+
+.contact{
+    position: relative;
+    min-height: 100vh;
+    padding: 120px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url(rekrut-flexi.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 9%;
+  
+  
+  }
+  
+  
+  .contact .content{
+    max-width: 800px;
+    text-align: center;
+  }
+  
+  .contact .content h2{
+  font-size: 50px;
+  font-weight: 500;
+  color: #98c421;
+  
+  }
+  
+  .contact .content p{
+   
+    font-weight: 500;
+    color: #98c421;
+    
+    }
+  
+    .container1{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 40px;
+    }
+  
+    .container1 .contactInfo
+    {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .container1 .contactInfo .box1{
+      position: relative;
+      padding: 30px 0;
+      display: flex;
+    }
+    .container1 .contactInfo .box1 .icon{
+      min-width: 50px;
+      height: 50px;
+      background: #98c421;
+      display: flex;
+      color: rgb(255, 255, 255);
+      justify-content: center;
+      align-items: center;
+      border-radius: 50%;
+      font-size: 22px;
+    }
+  
+    .container1 .contactInfo .box1 .text{
+      display: flex;
+      margin-left: 20px;
+      font-size: 16px;
+      color: #98c421;
+      flex-direction: column;
+      font-weight: 300;
+    }
+  
+    .container1 .contactInfo .box1 .text h3{
+  font-weight: 500;
+  color: #98c421;
+    }
+  
+    .contactForm{
+      width: 40%;
+      padding: 40px;
+      background: rgb(255, 255, 255);
+      border-radius: 5%;
+    }
+  
+    .contactForm h2{
+      font-size: 30px;
+      color: #333;
+      font-weight: 500;
+    }
+  
+    .contactForm .inputBox{
+      position: relative;
+      width: 100%;
+      margin-top: 10px;
+    }
+    .contactForm .inputBox input,
+    .contactForm .inputBox textarea
+    {
+      width: 100%;
+      padding: 5px 0;
+      font-size: 16px;
+      margin: 10px 0;
+      border: none;
+      border-bottom: 2px solid #333;
+      outline: none;
+      resize: none;
+    }
+  
+    .contactForm .inputBox span{
+      position: absolute;
+      left: 0;
+      padding: 5px 0;
+      font-size: 16px;
+      margin: 10px 0;
+      pointer-events: none;
+      transition: 0.5s;
+      color: #666;
+  
+  
+    }
+  
+    .contactForm .inputBox input:focus ~ span,
+    .contactForm .inputBox input:valid ~ span,
+    .contactForm .inputBox input:focus ~ span,
+    .contactForm .inputBox input:valid ~ span
+    {
+      color: #e91e63;
+      font-size:12px ;
+      transform: translateY(-20px);
+    }
+  .contactForm .inputBox input[type="submit"]{
+    width: 100px;
+    background: #00bcd4;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+  
+  }
+  
+  @media(max-width:991px)
+  {
+    .contact{
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 100px;
+      padding-bottom: 50px;
+    }
+  .container1{
+    flex-direction: column;
+  }
+  .container1 .contactInfo,
+  .contactForm{
+    width: 100%;
+  }
+  
+  }
